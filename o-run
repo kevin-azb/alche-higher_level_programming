@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#This bashscript runs the $PYFILE environment variable using python3
+#This first script checks if the $PYFILE was set
+
+if [ -z "$PYFILE" ]; then
+  echo "Error : The PYFILE environment variable was not set"
+  exit 1
+fi
+
+#This line runs The $PYFILE using python3
+
+python3 "$PYFILE"
