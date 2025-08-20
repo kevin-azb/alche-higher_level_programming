@@ -10,5 +10,5 @@ if Lst_dgt > 5:
 if Lst_dgt == 0:
     print(f"Last digit of {number} is {Lst_dgt} and is 0")
 
-if Lat_dgt < 6 and Last_digit != 0:
+if Lst_dgt < 6 and Lst_dgt != 0:
     print(f"Last digit of {number} is {Lst_dgt} and is less than 6 and not 0")
