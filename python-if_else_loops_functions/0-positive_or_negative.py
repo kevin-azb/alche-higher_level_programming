@@ -9,5 +9,5 @@ if number == 0:
   print(f"{number} is zero")
 
 if number > 0:
-  print(f"{number} is greater than zero")
+  print(f"{number} is positive")
 
